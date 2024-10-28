@@ -7,7 +7,7 @@ import mimetypes
 from aiohttp import web
 import aiofiles
 from aiohttp.http_exceptions import BadStatusLine
-from Thunder.bot import multi_clients, work_loads, StreamBot
+from FileStream.bot import multi_clients, work_loads, StreamBot
 from Thunder.server.exceptions import FileNotFound, InvalidHash
 from Thunder import StartTime, __version__
 from ..utils.time_format import get_readable_time
